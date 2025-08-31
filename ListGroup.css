@@ -1,0 +1,48 @@
+.game-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #5865F2 0%, #23272A 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', 'Roboto', 'Apple SD Gothic Neo', sans-serif;
+}
+
+.game-title {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  letter-spacing: 2px;
+}
+
+.game-button {
+  font-size: 2rem;
+  padding: 1rem 3rem;
+  background: #5865F2;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0 4px 20px rgba(88,101,242,0.2);
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  transition: background 0.2s;
+}
+
+.game-button:hover {
+  background: #4752c4;
+}
+
+.game-result {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 1.5rem 3rem;
+  background: rgba(44,47,51,0.85);
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 12px rgba(44,47,51,0.2);
+  margin-top: 1.5rem;
+  text-align: center;
+  letter-
